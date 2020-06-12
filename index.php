@@ -18,7 +18,7 @@
     console.log('Signed in as: ' + xhr.responseText);
     };
     xhr.send('idtoken=' + id_token);
-    window.location.replace("https://google-login-php.herokuapp.com/redirect.php?idtoken="+id_token);
+    window.location.replace("http://localhost/redirect.php?idtoken="+id_token);
   }
   </script>
 </head>
